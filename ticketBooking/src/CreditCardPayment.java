@@ -12,6 +12,7 @@ public class CreditCardPayment implements Payment {
 
 	}
 	
+	@Override
 	public void printMe(){
 		System.out.println("I am CreditCardPayment");
 	}

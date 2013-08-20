@@ -7,9 +7,12 @@ public class Ticket {
 	String date;
 	String time;
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public Ticket(String seatNumber, String price, String eventName, String date, String time){
+		this.seatNumber = seatNumber;
+		this.price = price;
+		this.eventName = eventName;
+		this.date = date;
+		this.time = time;
 	}
 
 }

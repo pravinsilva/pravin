@@ -12,6 +12,7 @@ public class NetBanking implements Payment {
 
 	}
 	
+	@Override
 	public void printMe(){
 		System.out.println("I am NetBanking");
 	}
