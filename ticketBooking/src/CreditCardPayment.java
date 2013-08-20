@@ -1,4 +1,3 @@
-
 public class CreditCardPayment implements Payment {
 
 	@Override
@@ -11,6 +10,10 @@ public class CreditCardPayment implements Payment {
 	public void setAmount(int price) {
 		// TODO Auto-generated method stub
 
+	}
+	
+	public void printMe(){
+		System.out.println("I am CreditCardPayment");
 	}
 
 }
